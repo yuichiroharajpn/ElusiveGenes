@@ -1,2 +1,2 @@
-# Searching for gene absence in phylogenetic tree (Hara and Kraku submitted)
+# Searching for gene absence in phylogenetic tree (Hara and Kuraku, submitted)
 
