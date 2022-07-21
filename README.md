@@ -8,11 +8,11 @@ The suite requires ete3 (>= 3.1.1) implemented in Python3 (>= 3.6), ape (>= 5.5)
 ## Inputs
 
 ### Gene tree file
-The suite inputs unrooted tree files in the newick format. All tree files have .nwk extension and stored in a specified directory.  
+The suite inputs unrooted tree files in the newick format. All tree files have .nwk extension and are stored in a specified directory.  
 Caution: Do not attach .clps.nwk extension for these tree files because this extension will be attached to the intermediate tree files that are removed at the initial step of the script.
-#### Prefix of OTU names
-Each OTU should have the six-character abbreviation of species names.  
-The six-character prefix were attached to species name with underscore.
+#### The Prefix of OTU names
+Each OTU should have a six-character abbreviation of species names.  
+The six-character prefix is attached to the species name with an underscore.
 The abbreviations used in the paper were described in data/XXX.txt  
 
 | Abbreviation | Species name |
@@ -25,7 +25,7 @@ The abbreviations used in the paper were described in data/XXX.txt
 
 
 ### Human-centric topological age 
-This represents rough phylogenetic distances between human and other vertebrates in a hieratchial maanner as shown in the table below. The ages for the individual species are included in data/hierarchy_vrt.txt.
+This represents rough phylogenetic distances between human and other vertebrates in a hierarchical manner as shown in the table below. The ages for the individual species are included in data/hierarchy_vrt.txt.
 This value is used for rerooting the tree with ete3 assuming taxonomic positions of the species.
 
 | Topological age | Taxon |
@@ -41,7 +41,7 @@ This value is used for rerooting the tree with ete3 assuming taxonomic positions
 
 
 ### Ensembl human gene orthology
-The Ensembl orthologous pairs between human and other vertebrates can be optinally used to decrease false identification of gene absence due to reconstruction of gene trees inconsistent with species phylogeny.  
+The Ensembl orthologous pairs between human and other vertebrates can be optionally used to decrease false identification of gene absence due to reconstruction of gene trees inconsistent with species phylogeny.  
 The file contains representative protein IDs of human and other vertebrate ortholog pairs in tabular separated text. The first column should contain human protein IDs. When Ensembl and the other annotations are integrated, Non-Ensembl (e.g., RefSeq) protein IDs are acceptable.  
 Find the file in data/YYY.txt.
 
@@ -50,7 +50,7 @@ Find the file in data/YYY.txt.
 - Species list (six-characters)
 - Taxonomy list
 - Species phylogenetic tree  
-The tree contains the mutifurcational relationship of the species in a representative taxonomic group for identifying gene loss in the newick format.
+The tree contains the multifurcation relationship of species in a representative taxonomic group for identifying gene loss in the newick format.
 For example, the species belonging to Carnivora should be described as:
 ```
 (Panpar,Pantig,Felcat,Ursmar,Ailmel,Musput,Enhlut,Canfam,Neosch,Odoros)Carnivora
@@ -58,14 +58,17 @@ For example, the species belonging to Carnivora should be described as:
 
 ## Execution
 
-Run a wrapper for inferring speciation and duplication event at each tree node for each human gene.
+Run a wrapper for inferring speciation and duplication events at each tree node for each human gene.
 ```
 /PATH/TO/ElusiveGenes/scripts/processtree.sh dir_name
 ```
-where `dir_name` is a directory tha contains gene tree files.  
+where `dir_name` is a directory that contains gene tree files.  
 This wrapper produces two types of intermediate tree files and an output file for each tree file.
-- XXXX.clps.nwk; 
-- XXXX.clps.reroot.nwk;
-- XXXX.clps.reroot.ortho.txt;
+- XXXX.clps.nwk; a tree file with collapsing internal branches with near zero lengths
+- XXXX.clps.reroot.nwk; a rooted tree file of the XXXX.clps.nwk
+- XXXX.clps.reroot.ortho.txt; an output file of speciation and duplication inference for the individual human genes  
+  
+
+aa  
 
 
