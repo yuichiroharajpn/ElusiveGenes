@@ -9,6 +9,7 @@ The suite requires ete3 (>= 3.1.1) implemented in Python3 (>= 3.6), ape (>= 5.5)
 
 ### Gene tree file
 The suite inputs unrooted tree files in the newick format. All tree files have .nwk extension and stored in a specified directory.  
+Caution: Do not attach .clps.nwk extension for these tree files because this extension will be attached to the intermediate tree files that are removed at the initial step of the script.
 #### Prefix of OTU names
 Each OTU should have the six-character abbreviation of species names.  
 The six-character prefix were attached to species name with underscore.
@@ -24,7 +25,7 @@ The abbreviations used in the paper were described in data/XXX.txt
 
 
 ### Human-centric topological age 
-This represents rough phylogenetic distances between human and other vertebrates in a hieratchial maanner as shown in the table below. The ages for the individual species are included in data/XXX.txt.
+This represents rough phylogenetic distances between human and other vertebrates in a hieratchial maanner as shown in the table below. The ages for the individual species are included in data/hierarchy_vrt.txt.
 This value is used for rerooting the tree with ete3 assuming taxonomic positions of the species.
 
 | Topological age | Taxon |
@@ -55,7 +56,16 @@ For example, the species belonging to Carnivora should be described as:
 (Panpar,Pantig,Felcat,Ursmar,Ailmel,Musput,Enhlut,Canfam,Neosch,Odoros)Carnivora
 ```
 
-
 ## Execution
+
+Run a wrapper for inferring speciation and duplication event at each tree node for each human gene.
+```
+/PATH/TO/ElusiveGenes/scripts/processtree.sh dir_name
+```
+where `dir_name` is a directory tha contains gene tree files.  
+This wrapper produces two types of intermediate tree files and an output file for each tree file.
+- XXXX.clps.nwk; 
+- XXXX.clps.reroot.nwk;
+- XXXX.clps.reroot.ortho.txt;
 
 
