@@ -2,7 +2,7 @@
 
 ## Dependency
 
-The suite requires ete3 (>= 3.1.1) implemented in Python3 (>= 3.6), ape (>= 5.5) in R (>= 3.2.0), and Perl5.
+The suite requires ete3 (==3.1.2) implemented in Python3 (>= 3.6, <3.7.0), ape (>= 5.5) in R (>= 3.2.0), and Perl5.
   
 
 ## Inputs
@@ -58,9 +58,15 @@ For example, the species belonging to Carnivora should be described as:
 
 ## Execution
 
+Download this git repository to a directory
+```
+cd /PATH/TO/github
+git clone https://github.com/yuichiroharajpn/ElusiveGenes.git
+```
+
 Run a wrapper for inferring speciation and duplication events at each tree node for each human gene.
 ```
-/PATH/TO/ElusiveGenes/scripts/processtree.sh dir_name
+/PATH/TO/github/ElusiveGenes/scripts/processtree.sh dir_name
 ```
 where `dir_name` is a directory that contains gene tree files.  
 This wrapper produces two types of intermediate tree files and an output file for each tree file.
@@ -69,6 +75,8 @@ This wrapper produces two types of intermediate tree files and an output file fo
 - XXXX.clps.reroot.ortho.txt; an output file of speciation and duplication inference for the individual human genes  
   
 
-aa  
-
-
+Summarize the presence or absence of species in ortholog groups that contains human genes
+```
+/PATH/TO/github/ElusiveGenes/scripts/summarize_absence.pl -d dir_name -e /PATH/TO/github/ElusiveGenes/data/Ensembl_human_orthopair.92.pep.txt -M > summary_gene_retention.txt
+```
+The output file contains number of genes in each taxon and species and human gene (representative protein) IDs for a mammalian subtree in a gene tree in a line.

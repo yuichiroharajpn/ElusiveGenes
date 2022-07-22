@@ -8,7 +8,8 @@ def get_species_name(node_name_string):
 
 # Input hierarchial relationship
 
-scriptdir = os.path.dirname(os.path.abspath(__file__))
+#scriptdir = os.path.dirname(os.path.abspath(__file__))
+scriptdir = os.path.dirname(os.path.abspath(sys.argv[0]))
 hfile = scriptdir + '/../data/hierarchy_vrt.txt'
 is_file = os.path.isfile(hfile)
 
