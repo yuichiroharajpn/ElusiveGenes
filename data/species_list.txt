@@ -1,0 +1,192 @@
+Species	Abbrebiation	Representative_Taxonomy
+Danio rerio	Danrer	.
+Homo sapiens	Homsap	Hominoidea
+Mus musculus	Musmus	Myomorpha(Myodonta)
+Takifugu rubripes	Takrub	.
+Rattus norvegicus	Ratnor	Myomorpha(Myodonta)
+Sus scrofa	Susscr	Cetartiodactyla
+Felis catus	Felcat	Carnivora
+Xenopus tropicalis	Xentro	.
+Xenopus laevis	Xenlae	.
+Bos taurus	Bostau	Cetartiodactyla
+Ovis aries	Oviari	Cetartiodactyla
+Canis familiaris	Canfam	Carnivora
+Gallus gallus	Galgal	Galloanserae
+Meleagris gallopavo	Melgal	Galloanserae
+Coturnix japonica	Cotjap	Galloanserae
+Struthio camelus australis	Strcam	.
+Falco peregrinus	Falper	Neoaves
+Ictalurus punctatus	Ictpun	.
+Equus caballus	Equcab	Perissodactyla
+Oreochromis niloticus	Orenil	.
+Macaca mulatta	Macmul	Cercopithecoidea
+Monodelphis domestica	Mondom	Marsupialia
+Loxodonta africana	Loxafr	Afrotheria
+Cavia porcellus	Cavpor	Hystricognathi
+Echinops telfairi	Echtel	Afrotheria
+Dasypus novemcinctus	Dasnov	.
+Sorex araneus	Sorara	Eulipotyphla
+Erinaceus europaeus	Erieur	Eulipotyphla
+Pongo abelii	Ponabe	Hominoidea
+Taeniopygia guttata	Taegut	Neoaves
+Salmo salar	Salsal	.
+Papio anubis	Papanu	Cercopithecoidea
+Callithrix jacchus	Caljac	Platyrrhini
+Otolemur garnettii	Otogar	Strepsirhini
+Ictidomys tridecemlineatus	Icttri	Sciuromorpha
+Nomascus leucogenys	Nomleu	Hominoidea
+Oryzias latipes	Orylat	.
+Callorhinchus milii	Calmil	.
+Anolis carolinensis	Anocar	Toxicofera
+Fundulus heteroclitus	Funhet	.
+Pteropus vampyrus	Ptevam	Chiroptera
+Tursiops truncatus	Turtru	Cetartiodactyla
+Ochotona princeps	Ochpri	.
+Dipodomys ordii	Dipord	Castorimorpha
+Macaca fascicularis	Macfas	Cercopithecoidea
+Galeopterus variegatus	Galvar	.
+Microcebus murinus	Micmur	Strepsirhini
+Vicugna pacos	Vicpac	Cetartiodactyla
+Gorilla gorilla gorilla	Gorgor	Hominoidea
+Maylandia zebra	Mayzeb	.
+Nothobranchius furzeri	Notfur	.
+Ailuropoda melanoleuca	Ailmel	Carnivora
+Cricetulus griseus	Crigri	Myomorpha(Myodonta)
+Anas platyrhynchos	Anapla	Galloanserae
+Sarcophilus harrisii	Sarhar	Marsupialia
+Latimeria chalumnae	Latcha	.
+Mustela putorius furo	Musput	Carnivora
+Haplochromis burtoni	Hapbur	.
+Pundamilia nyererei	Punnye	.
+Odocoileus virginianus texanus	Odovir	Cetartiodactyla
+Saimiri boliviensis boliviensis	Saibol	Platyrrhini
+Heterocephalus glaber	Hetgla	Hystricognathi
+Equus asinus	Equasi	Perissodactyla
+Nipponia nippon	Nipnip	Neoaves
+Rhinopithecus roxellana	Rhirox	Cercopithecoidea
+Neomonachus schauinslandi	Neosch	Carnivora
+Amphiprion ocellaris	Ampoce	.
+Enhydra lutris kenyoni	Enhlut	Carnivora
+Pogona vitticeps	Pogvit	Toxicofera
+Scleropages formosus	Sclfor	.
+Rousettus aegyptiacus	Rouaeg	Chiroptera
+Panthera pardus	Panpar	Carnivora
+Bison bison bison	Bisbis	Cetartiodactyla
+Rhinopithecus bieti	Rhibie	Cercopithecoidea
+Sinocyclocheilus grahami	Singra	.
+Castor canadensis	Cascan	Castorimorpha
+Pygocentrus nattereri	Pygnat	.
+Chinchilla lanigera	Chilan	Hystricognathi
+Lepisosteus oculatus	Lepocu	.
+Pan paniscus	Panpan	Hominoidea
+Capra hircus	Caphir	Cetartiodactyla
+Camelus dromedarius	Camdro	Cetartiodactyla
+Camelus bactrianus	Cambac	Cetartiodactyla
+Jaculus jaculus	Jacjac	Myomorpha(Myodonta)
+Balaenoptera acutorostrata scammoni	Balacu	Cetartiodactyla
+Xiphophorus maculatus	Xipmac	.
+Panthera tigris altaica	Pantig	Carnivora
+Microtus ochrogaster	Micoch	Myomorpha(Myodonta)
+Paralichthys olivaceus	Paroli	.
+Serinus canaria	Sercan	Neoaves
+Peromyscus maniculatus bairdii	Perman	Myomorpha(Myodonta)
+Eptesicus fuscus	Eptfus	Chiroptera
+Cynoglossus semilaevis	Cynsem	.
+Octodon degus	Octdeg	Hystricognathi
+Orycteropus afer afer	Oryafe	Afrotheria
+Chrysochloris asiatica	Chrasi	Afrotheria
+Elephantulus edwardii	Eleedw	Afrotheria
+Ficedula albicollis	Ficalb	Neoaves
+Camelus ferus	Camfer	Cetartiodactyla
+Mesocricetus auratus	Mesaur	Myomorpha(Myodonta)
+Pteropus alecto	Pteale	Chiroptera
+Chrysemys picta bellii	Chrpic	Testudines
+Seriola lalandi dorsalis	Serlal	.
+Seriola dumerili	Serdum	.
+Nannospalax galili	Nangal	Myomorpha(Myodonta)
+Parus major	Parmaj	Neoaves
+Oryzias melastigma	Orymel	.
+Tupaia chinensis	Tupchi	.
+Physeter catodon	Phycat	Cetartiodactyla
+Poecilia formosa	Poefor	.
+Astyanax mexicanus	Astmex	.
+Stegastes partitus	Stepar	.
+Cyprinodon variegatus	Cypvar	.
+Chlorocebus sabaeus	Chlsab	Cercopithecoidea
+Austrofundulus limnaeus	Auslim	.
+Delphinapterus leucas	Delleu	Cetartiodactyla
+Macaca nemestrina	Macnem	Cercopithecoidea
+Cercocebus atys	Ceraty	Cercopithecoidea
+Chelonia mydas	Chemyd	Testudines
+Alligator mississippiensis	Allmis	Crocodilia
+Crocodylus porosus	Cropor	Crocodilia
+Odobenus rosmarus divergens	Odoros	Carnivora
+Orcinus orca	Orcorc	Cetartiodactyla
+Numida meleagris	Nummel	Galloanserae
+Falco cherrug	Falche	Neoaves
+Lates calcarifer	Latcal	.
+Aotus nancymaae	Aotnan	Platyrrhini
+Pelodiscus sinensis	Pelsin	Testudines
+Myotis davidii	Myodav	Chiroptera
+Poecilia mexicana	Poemex	.
+Gavialis gangeticus	Gavgan	Crocodilia
+Lipotes vexillifer	Lipvex	Cetartiodactyla
+Pseudopodoces humilis	Psehum	Neoaves
+Clupea harengus	Cluhar	.
+Fukomys damarensis	Fukdam	Hystricognathi
+Ursus maritimus	Ursmar	Carnivora
+Poecilia latipinna	Poelat	.
+Python bivittatus	Pytbiv	Toxicofera
+Protobothrops mucrosquamatus	Promuc	Toxicofera
+Myotis brandtii	Myobra	Chiroptera
+Alligator sinensis	Allsin	Crocodilia
+Esox lucius	Esoluc	.
+Bos mutus	Bosmut	Cetartiodactyla
+Kryptolebias marmoratus	Krymar	.
+Phascolarctos cinereus	Phacin	Marsupialia
+Meriones unguiculatus	Merung	Myomorpha(Myodonta)
+Monopterus albus	Monalb	.
+Propithecus coquereli	Procoq	Strepsirhini
+Trichechus manatus latirostris	Triman	Afrotheria
+Ceratotherium simum simum	Cersim	Perissodactyla
+Anser cygnoides domesticus	Anscyg	Galloanserae
+Egretta garzetta	Egrgar	Neoaves
+Equus przewalskii	Equprz	Perissodactyla
+Manacus vitellinus	Manvit	Neoaves
+Corvus brachyrhynchos	Corbra	Neoaves
+Aquila chrysaetos canadensis	Aquchr	Neoaves
+Calypte anna	Calann	Neoaves
+Aptenodytes forsteri	Aptfor	Neoaves
+Charadrius vociferus	Chavoc	Neoaves
+Cuculus canorus	Cuccan	Neoaves
+Haliaeetus leucocephalus	Halleu	Neoaves
+Chaetura pelagica	Chapel	Neoaves
+Mus caroli	Muscar	Myomorpha(Myodonta)
+Nanorana parkeri	Nanpar	.
+Marmota marmota marmota	Marmar	Sciuromorpha
+Mandrillus leucophaeus	Manleu	Cercopithecoidea
+Colobus angolensis palliatus	Colang	Cercopithecoidea
+Manis javanica	Manjav	.
+Sinocyclocheilus rhinocerous	Sinrhi	.
+Sinocyclocheilus anshuiensis	Sinans	.
+Gekko japonicus	Gekjap	Gekkota
+Calidris pugnax	Calpug	Neoaves
+Sturnus vulgaris	Stuvul	Neoaves
+Lonchura striata domestica	Lonstr	Neoaves
+Miniopterus natalensis	Minnat	Chiroptera
+Lepidothrix coronata	Lepcor	Neoaves
+Cebus capucinus imitator	Cebcap	Platyrrhini
+Carlito syrichta	Carsyr	.
+Rhinolophus sinicus	Rhisin	Chiroptera
+Mus pahari	Muspah	Myomorpha(Myodonta)
+Acanthochromis polyacanthus	Acapol	.
+Piliocolobus tephrosceles	Piltep	Cercopithecoidea
+Paramormyrops kingsleyae	Parkin	.
+Terrapene mexicana triunguis	Termex	Testudines
+Columba livia	Colliv	Neoaves
+Pan troglodytes	Pantro	Hominoidea
+Mus spretus	Musspr	Myomorpha(Myodonta)
+Rhincodon typus	Rhityp	.
+Scyliorhinus torazame	Scytor	.
+Chiloscyllium punctatum	Chipun	.
+Paroedura picta	Parpic	Gekkota
