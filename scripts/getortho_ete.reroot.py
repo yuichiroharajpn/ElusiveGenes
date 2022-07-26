@@ -16,7 +16,7 @@ is_file = os.path.isfile(hfile)
 try:
     df = pd.read_table(hfile)
 except FileNotFoundError:
-    print('Human-centric topological age file',file,'not found.')
+    print('Human-centric topological age file',hfile,'not found.')
     exit(1)
 
 
@@ -35,7 +35,7 @@ species2age = dict(zip(df['Species'],df['Hierarchy']))
 
 # Input tree file
 tfile=sys.argv[1]
-outfile = tfile.replace(".nwk","reroot.nwk")
+outfile = tfile.replace(".nwk",".reroot.nwk")
 if tfile == outfile:
 	print('Extension of the tree file must be ".nwk"', file=sys.stderr)
 	sys.exit()

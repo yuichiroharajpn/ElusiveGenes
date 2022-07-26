@@ -77,13 +77,15 @@ Run a wrapper for inferring speciation and duplication events at each tree node 
 ```
 where `dir_name` is a directory that contains gene tree files.  
 This wrapper produces two types of intermediate tree files and an output file for each tree file.
-- [Prefix_symbol]_[Prefix_num].XXXX.clps.nwk; a tree file with collapsing internal branches with near zero lengths
-- [Prefix_symbol]_[Prefix_num].XXXX.clps.reroot.nwk; a rooted tree file of the [Prefix_symbol]_[Prefix_num].XXXX.clps.nwk
-- [Prefix_symbol]_[Prefix_num].XXXX.clps.reroot.ortho.txt; an output file of speciation and duplication inference for the individual human genes  
+- `[Prefix_symbol]_[Prefix_num].XXXX.clps.nwk`; a tree file with collapsing internal branches with near zero lengths
+- `[Prefix_symbol]_[Prefix_num].XXXX.clps.reroot.nwk`; a rooted tree file of the `[Prefix_symbol]_[Prefix_num].XXXX.clps.nwk`
+- `[Prefix_symbol]_[Prefix_num].XXXX.clps.reroot.ortho.txt`; an output file of speciation and duplication inference for the individual human genes  
   
 
 Summarize the presence or absence of species in ortholog groups that contains human genes
 ```
+gunzip /PATH/TO/github/ElusiveGenes/data/Ensembl_human_orthopair.92.pep.txt.gz
+
 /PATH/TO/github/ElusiveGenes/scripts/summarize_absence.pl -d dir_name -e /PATH/TO/github/ElusiveGenes/data/Ensembl_human_orthopair.92.pep.txt -p [Prefix_symbol] -M > summary_gene_retention.txt
 ```
 The output file contains number of genes in each taxon and species and human gene (representative protein) IDs for a mammalian subtree in a gene tree in a line.
