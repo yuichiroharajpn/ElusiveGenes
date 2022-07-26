@@ -14,9 +14,9 @@ conda activate ElusiveGenes
 
 ### Gene tree file
 The suite inputs unrooted tree files in the newick format. All tree files have .nwk extension and are stored in a specified directory.  
-Prefix of the tree file should be `[Prefix_symbol]_[Prefix_num]`,  
-where `Prefix_symbol` is a string common across all the tree files and `Prefix_num` is a zero-padded positive integer unique to each file.
-Caution: Do not attach .clps.nwk extension for these tree files because this extension will be attached to the intermediate tree files that are removed at the initial step of the script.
+Tree file name should be `[Prefix_symbol]_[Prefix_num].XXXX.nwk`,  
+where `Prefix_symbol` is a string common across all the tree files and `Prefix_num` is a (zero-padded) natural number unique to each file. Any strings (XXXX) can be inserted with periods in the file name if needed.  
+**Caution**: Do not attach .clps.nwk extension for these tree files because this extension will be attached to the intermediate tree files that are removed at the initial step of the script.
 #### The Prefix of OTU names
 Each OTU should have a six-character abbreviation of species names.  
 The six-character prefix is attached to the species name with an underscore.
@@ -77,9 +77,9 @@ Run a wrapper for inferring speciation and duplication events at each tree node 
 ```
 where `dir_name` is a directory that contains gene tree files.  
 This wrapper produces two types of intermediate tree files and an output file for each tree file.
-- XXXX.clps.nwk; a tree file with collapsing internal branches with near zero lengths
-- XXXX.clps.reroot.nwk; a rooted tree file of the XXXX.clps.nwk
-- XXXX.clps.reroot.ortho.txt; an output file of speciation and duplication inference for the individual human genes  
+- [Prefix_symbol]_[Prefix_num].XXXX.clps.nwk; a tree file with collapsing internal branches with near zero lengths
+- [Prefix_symbol]_[Prefix_num].XXXX.clps.reroot.nwk; a rooted tree file of the [Prefix_symbol]_[Prefix_num].XXXX.clps.nwk
+- [Prefix_symbol]_[Prefix_num].XXXX.clps.reroot.ortho.txt; an output file of speciation and duplication inference for the individual human genes  
   
 
 Summarize the presence or absence of species in ortholog groups that contains human genes
