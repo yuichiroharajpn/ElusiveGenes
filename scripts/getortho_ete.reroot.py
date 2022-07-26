@@ -10,11 +10,11 @@ def get_species_name(node_name_string):
 
 #scriptdir = os.path.dirname(os.path.abspath(__file__))
 scriptdir = os.path.dirname(os.path.abspath(sys.argv[0]))
-hfile = scriptdir + '/../data/hierarchy_vrt.txt'
+hfile = scriptdir + '/../scripts/hierarchy_vrt.txt'
 is_file = os.path.isfile(hfile)
 
 try:
-    df = pd.read_table('hfile')
+    df = pd.read_table(hfile)
 except FileNotFoundError:
     print('Human-centric topological age file',file,'not found.')
     exit(1)

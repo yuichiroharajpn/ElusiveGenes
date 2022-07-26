@@ -117,7 +117,7 @@ my (%N, %NN) = ();
 while(my $f = glob("$dir/*.clps.reroot.ortho.txt")){
 	my %ortho = ();
 	my @mem = ();
-	my $f =~ /(${prefix}_\d+)/;
+	$f =~ /(${prefix}_\d+)/;
 	my $grpid = $1;
 
 	open(IN,$f);
