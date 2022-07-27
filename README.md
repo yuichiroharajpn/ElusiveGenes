@@ -16,6 +16,7 @@ conda activate ElusiveGenes
 The suite inputs unrooted tree files in the newick format. All tree files have .nwk extension and are stored in a specified directory.  
 Tree file name should be `[Prefix_symbol]_[Prefix_num].XXXX.nwk`,  
 where `Prefix_symbol` is a string common across all the tree files and `Prefix_num` is a (zero-padded) natural number unique to each file. Any strings (XXXX) can be inserted with periods in the file name if needed.  
+Example tree toplogies are stored in example/tree_dir with [`Prefix_symbol`] as `group_BchorENS`.  
 **Caution**: Do not attach .clps.nwk extension for these tree files because this extension will be attached to the intermediate tree files that are removed at the initial step of the script.
 #### The Prefix of OTU names
 Each OTU should have a six-character abbreviation of species names.  
