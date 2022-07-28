@@ -1,13 +1,12 @@
 #!/bin/bash
 
-#DIR="ortho_mam_phylo"
 DIR=$1
 
 SCRIPT_DIR=$(cd $(dirname $0); pwd)
 
-if [ -z "$DIR" ]; then
+if [ ! -d $DIR ]; then
 	echo "usage: $0 [Dir_Name]" >&2
-	echo "[Dir_Name] should contain gene tree files in newick format with extension .nwk" >&2
+	echo "Directory [Dir_Name] not found. Prepare a directory containing gene tree files in newick format with extension .nwk" >&2
 fi
 
 # Remove intermediate and output files

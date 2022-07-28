@@ -33,8 +33,8 @@ The abbreviations used in the paper were described in data/species_list.txt
 
 
 ### Human-centric topological age 
-This represents rough phylogenetic distances between human and other vertebrates in a hierarchical manner as shown in the table below. The ages for the individual species are included in scripts/hierarchy_vrt.txt.
-This value is used for rerooting the tree with ete3 assuming taxonomic positions of the species.
+This represents rough phylogenetic distances between human and other vertebrates in a hierarchical manner as shown in the table below. The ages for the individual species are included in `scripts/hierarchy_vrt.txt`.
+This value is used for rerooting a tree with ete3 assuming taxonomic positions of the species.
 
 | Topological age | Taxon |
 |:---:|:---|
@@ -50,11 +50,12 @@ This value is used for rerooting the tree with ete3 assuming taxonomic positions
 
 ### Ensembl human gene orthology
 The Ensembl orthologous pairs between human and other vertebrates can be optionally used to decrease false identification of gene absence due to reconstruction of gene trees inconsistent with species phylogeny.  
-The file contains representative protein IDs of human and other vertebrate ortholog pairs in tabular separated text. The first column should contain human protein IDs. When Ensembl and the other annotations are integrated, Non-Ensembl (e.g., RefSeq) protein IDs are acceptable.  
-Find the file in data/Ensembl_human_orthopair.92.pep.txt.
+The file contains representative protein IDs (e.g. Ensembl canonical protein IDs) of human and other vertebrate ortholog pairs in tabular separated text. The first column should contain human protein IDs . When Ensembl and the other annotations are integrated, Non-Ensembl (e.g., RefSeq) protein IDs are acceptable.  
+Find the file in `data/Ensembl_human_orthopair.92.pep.txt.gz`.
 
 
 ### Preset data
+The data listed below required for summarizing presence or absence of species in ortholog groups are already included in the script.
 - Species list (six-characters)
 - Taxonomy list
 - Species phylogenetic tree  
